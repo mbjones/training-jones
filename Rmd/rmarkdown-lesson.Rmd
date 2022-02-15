@@ -30,6 +30,11 @@ Let's cite the people. [@Stafford2012]
 ```{r, echo=FALSE}
 plot(bg_chem$CTD_Depth, bg_chem$CTD_Temperature)
 ```
+# Another section on Git
+
+We learned a few things. Why to use version control. How to create a repository on GitHub and make changes there. And how to connect that to RStudio.
+
+Next up -- how to handle file conflicts. 
 
 # Discussion
 
