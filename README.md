@@ -4,4 +4,4 @@ Here is information about the repository
 
 # Matt's section
 
-Some stuff. Matt made a change here.
+Some stuff. Matt and Jeanette made a change here.
