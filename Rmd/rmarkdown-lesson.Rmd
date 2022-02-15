@@ -1,0 +1,36 @@
+---
+title: "Training Lesson"
+output: html_document
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r echo=FALSE}
+library(readr)
+```
+
+
+# Introduction
+
+Download the data.
+
+```{r}
+bg_chem <- read.csv("../data/BGchem2008data.csv")
+```
+
+Let's cite the people. [@Stafford2012]
+
+# Analysis
+
+# Plots
+
+```{r, echo=FALSE}
+plot(bg_chem$CTD_Depth, bg_chem$CTD_Temperature)
+```
+
+# Discussion
+
+# References
